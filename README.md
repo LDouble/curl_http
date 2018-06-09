@@ -21,7 +21,7 @@ Use pip:
  - Python 3
 
 ## Usage
-```
+```Python
 from curl_http import HTTP
 
 http = HTTP()
