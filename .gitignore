@@ -2,4 +2,5 @@
 flask_test.py
 test.py
 venv/
-.pyc
+__pycache__/
+*.py[cod]
