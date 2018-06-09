@@ -1,0 +1,5 @@
+.idea/
+flask_test.py
+test.py
+venv/
+.pyc
