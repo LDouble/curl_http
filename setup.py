@@ -10,12 +10,12 @@ setup(
     long_description="curl_http is a wrapper for PyCUrl,which we use PyCURL more convenient and easy",
     license="MIT Licence",
 
-    url="https://github.com/fengmm521/pipProject",
+    url="https://github.com/LDouble/curl_http",
     author="DoubleL",
     author_email="2943200389@qq.com",
 
     packages=find_packages(),
     include_package_data=True,
     platforms="any",
-    install_requires=[pycurl]
+    install_requires=["pycurl"]
 )
