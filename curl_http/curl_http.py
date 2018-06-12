@@ -81,7 +81,7 @@ class HTTP:
                     self.set_cookie(cookie[0],cookie[1])
         self.response_code = self.http.get_info(pycurl.RESPONSE_CODE)
         encoding = chardet.detect(self.http.body()).get("encoding")
-        self.content = self.http.body().decode(encoding=encoding)
+        self.content = self.http.body().decode(encoding=encoding, errors="ignore")
         return self.content
 
     def request(self, url, params = None, referer = ""):
