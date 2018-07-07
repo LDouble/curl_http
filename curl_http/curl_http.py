@@ -6,6 +6,7 @@ import chardet
 class HTTP:
     def __init__(self):
         self.http = curl.Curl()
+        self.http.set_option(pycurl.CONNECTTIMEOUT, 15)
         self.content = ""
         self.response_header = ""
         self.response_code = ""
