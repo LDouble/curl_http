@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="curl_http",
-    version="0.1.1",
+    version="0.1.2",
     keywords=("curl", "http", "HTTP", "curl_http", "PyCUrl"),
     description="curl_http is a wrapper for PyCUrl",
     long_description="curl_http is a wrapper for PyCUrl,which we use PyCURL more convenient and easy",

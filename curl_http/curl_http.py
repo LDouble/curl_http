@@ -1,7 +1,7 @@
 import curl
 import pycurl
 import chardet
-
+import requests
 
 class HTTP:
     def __init__(self):
